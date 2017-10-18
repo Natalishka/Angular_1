@@ -1,0 +1,133 @@
+.temp-list a {
+	margin-right: 20px;
+	background-color: #ccc;
+}
+
+body,html{
+	height:100%;
+}
+
+.main {
+	min-height:100%;
+}
+
+.footer{
+	height:40px;
+	margin: -40px 0 0 0;
+}
+
+.page-content {
+	margin-bottom: 100px;
+}
+
+/*header*/
+.header {
+	margin: 0 0 20px 0;
+	padding: 20px 5%;
+}
+
+.logo{
+	float: left;
+}
+.logo-title {
+	margin: 5px 0 0;
+}
+
+.logoff {
+	cursor: pointer;
+}
+
+/*login*/
+.login-form {
+	margin: 15% auto 0;
+	float: none;
+}
+
+.message-container {
+	height: 50px;
+	margin-bottom: 20px;
+}
+
+.incorrec-creds {
+	background-color: #f2dede;
+	color: #a94442;
+	padding: 15px;
+	border: 1px solid #ebccd1;
+	border-radius: 4px;
+}
+
+.login-form input.ng-invalid.ng-dirty {
+	border: 1px solid #FA787E;
+}
+
+.login-form input.ng-valid.ng-dirty {
+	border: 1px solid #78FA89;
+}
+.hint-enter {
+	padding-top: 6px;
+}
+
+.hint-message {
+	height: 20px;
+	padding-top: 5px;
+	color: #ff0000;
+}
+
+
+/*all courses*/
+.panel{
+	box-shadow: none;
+}
+
+.search-course {
+	margin-bottom: 30px;
+}
+
+.course {
+	border: 1px solid #000;
+	margin-bottom: 20px;
+}
+
+.course-controls button {
+	margin: 20px auto;
+}
+
+.v-align {
+	float: none;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.course-title {
+	margin-bottom: 20px;
+}
+
+.course-title .label-info {
+	font-size: 14px;
+}
+
+/*edit course*/
+
+.edit-form {
+	margin: 5% auto;
+	width: 60%;
+	float: none;
+}
+
+.course {
+	border: 1px solid #000;
+}
+
+.course-controls button {
+	margin: 20px auto;
+}
+
+.vbottom {
+	float: none;
+	display: inline-block;
+	vertical-align: bottom;
+}
+
+.course-title {
+	margin-bottom: 20px;
+}
